@@ -47,8 +47,7 @@ function MagicSquare(n) {
     }
 
 
-
-    console.log(arr);
+    return arr;
 }
-var MatrixNum = 4;
-MagicSquare(MatrixNum);
+var MatrixNum = 3;
+console.log(MagicSquare(MatrixNum));
